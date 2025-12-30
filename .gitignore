@@ -44,5 +44,3 @@ local.properties
 *.log*
 
 # Minified files (generated)
-*.min.css
-*.min.js
