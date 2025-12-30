@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creation Nation Players</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Creation Nation Players</h1>
+        </div>
+        <div class="menu-bar">
+            <a href="https://map.cnation.net/" target="_blank" class="menu-button">CNation Map</a>
+            <a href="https://store.cnation.net" target="_blank" class="menu-button">CNation Store</a>
+        </div>
+        <div class="table-container">
+            <table id="players-table">
+                <thead>
+                    <tr>
+                        <th data-column="name">Name</th>
+                        <th data-column="x">X</th>
+                        <th data-column="z">Z</th>
+                        <th data-column="world">World</th>
+                        <th data-column="health">Health</th>
+                        <th data-column="armor">Armor</th>
+                    </tr>
+                </thead>
+                <tbody id="players-tbody">
+                </tbody>
+            </table>
+        </div>
+        <div class="controls">
+            <label for="update-interval">Update Interval (ms):</label>
+            <input type="number" id="update-interval" value="30000" min="5000">
+            <input type="checkbox" id="auto-update" checked>
+            <label for="auto-update">Auto Update</label>
+            <button id="refresh-btn">Refresh</button>
+            <button id="reset-btn">Reset Interval</button>
+        </div>
+        <div class="status-bar">
+            <span id="player-count">Players: 0</span>
+            <div class="server-ip-container">
+                <span>Server IP: play.cnation.net</span>
+                <button id="copy-ip-btn">Copy To Clipboard</button>
+            </div>
+            <span id="last-updated">Last Updated: N/A</span>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

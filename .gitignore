@@ -1,0 +1,48 @@
+# Node.js
+node_modules/
+npm-debug.log
+.env
+.npm/
+.npmrc
+*.tgz
+
+# Android
+.gradle/
+/build/
+/captures/
+.externalNativeBuild/
+.cxx/
+local.properties
+# Ignore all .idea files that are not module-specific
+.idea/
+.idea/caches/
+.idea/libraries/
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.idea/*.iml
+# Android Studio
+*.iml
+*.ap_
+*.apk
+*.aab
+*.aar
+*.o
+*.so
+*.dex
+*.hprof
+# Keystore files
+*.jks
+*.keystore
+# Crashlytics/Firebase symbols
+*.sym
+*.json
+
+# General OS/IDE files
+.DS_Store
+.vscode/
+*.log*
+
+# Minified files (generated)
+*.min.css
+*.min.js
