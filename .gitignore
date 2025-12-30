@@ -35,6 +35,10 @@ local.properties
 *.jks
 *.keystore
 
+# iOS Asset Catalog specific generated files
+**/Assets.xcassets/**/Contents.json
+
+
 # General OS/IDE files
 .DS_Store
 .vscode/
