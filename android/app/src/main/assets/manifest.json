@@ -1,0 +1,20 @@
+{
+  "short_name": "Creation Nation",
+  "name": "Creation Nation Players",
+  "icons": [
+    {
+      "src": "icons/android/mipmap-xxxhdpi/ic_launcher.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icons/playstore.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "index.mobile.html",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

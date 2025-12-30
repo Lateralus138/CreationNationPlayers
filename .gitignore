@@ -34,9 +34,6 @@ local.properties
 # Keystore files
 *.jks
 *.keystore
-# Crashlytics/Firebase symbols
-*.sym
-*.json
 
 # General OS/IDE files
 .DS_Store
