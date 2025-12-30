@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function fetchPlayers() {
         try {
-            const response = await fetch('https://map.cnation.net/tiles/players.json', { cache: 'no-cache' });
+            const response = await fetch('https://api.allorigins.win/raw?url=https://map.cnation.net/tiles/players.json', { cache: 'no-cache' });
             if (!response.ok) {
                 throw new Error(`HTTP error! status: ${response.status}`);
             }
